@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Caique Carara Reimberg</title>
+  <link rel="stylesheet" href="css/style.css">
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+</head>
+<body>
+  <header class="header">
+    <img src="imagem/foto_eu.jpeg">
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">Sobre</a></li>
+        <li><a href="#contact">Contato</a></li>
+        <li><a href="#skills">Habilidades</a></li>
+        <li><a href="#social_media">Media Social</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section id="home">
+      <div class="section-inner">
+          <img src="imagem/foto_eu.jpeg" class="profile-img">
+          <h1>Caique Carara Reimberg</h1>
+          <h3>Estudante de Análise e Desenvolvimento de Sistemas</h3>
+      </div>
+    </section>
+    <section id="about">
+      <div class="section-inner">
+        <h2>Sobre mim</h2>
+        <p>Atualmente estou cursando o 5° Semestre de Análise e Desenvolvimento de Sistemas na FATEC</p>
+        <h3>Locais Trabalhados</h3>
+        <ul>
+          <li>FIT (Institute of Technology of Flex) como Desenvolvedor de Software Embarcado</li>
+          <li>Flex como Suporte de TI</li>
+        </ul>
+      </div>
+    </section>
+    <section id="skills">
+        <script type="text/javascript" src="js/js_code.js"></script>
+          <div class="section-inner">
+            <h2>Minhas Habilidades</h2>
+            <div class="skillbar clearfix " data-percent="30%">
+              <div class="skillbar-title" style="background: #d35400;"><span>HTML5</span></div>
+              <div class="skillbar-bar" style="background: #e67e22;"></div>
+              <div class="skill-bar-percent">30%</div>
+            </div> 
+            
+            <div class="skillbar clearfix " data-percent="25%">
+              <div class="skillbar-title" style="background: #2980b9;"><span>CSS3</span></div>
+              <div class="skillbar-bar" style="background: #3498db;"></div>
+              <div class="skill-bar-percent">25%</div>
+            </div>
+
+            <div class="skillbar clearfix " data-percent="70%">
+              <div class="skillbar-title" style="background: #079E1E;"><span>C++</span></div>
+              <div class="skillbar-bar" style="background: #1AC334;"></div>
+              <div class="skill-bar-percent">70%</div>
+            </div>
+
+            <div class="skillbar clearfix " data-percent="55%">
+                <div class="skillbar-title" style="background: #05AFA4;"><span>C</span></div>
+                <div class="skillbar-bar" style="background: #06E3D4;"></div>
+                <div class="skill-bar-percent">55%</div>
+              </div>
+
+              <div class="skillbar clearfix " data-percent="50%">
+                  <div class="skillbar-title" style="background: #D30F03;"><span>JAVA</span></div>
+                  <div class="skillbar-bar" style="background: #F81406;"></div>
+                  <div class="skill-bar-percent">50%</div>
+                </div>
+  
+
+              <div class="skillbar clearfix " data-percent="60%">
+                  <div class="skillbar-title" style="background: #1DC100;"><span>Python</span></div>
+                  <div class="skillbar-bar" style="background: #2BF507;"></div>
+                  <div class="skill-bar-percent">60%</div>
+                </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <form name="meu_form">
+ 
+            <h2>Entre em contato</h2>
+     
+            <p class="nome">
+                <input type="text" id="idname" placeholder="Seu Nome" required="required" name="nome" />
+                <label for="nome">Nome</label>
+            </p>
+            <p class="fone">
+                <input type="text" id="foneid" placeholder="(xx)xx-xx-xx-xx" name="fone" />
+                <label for="fone">Fone</label>
+     
+            </p>
+            <p>
+                <input type="email" id="emailid" placeholder="seu_email@mail.com" name="email" />
+                <label for="email">Email</label>
+            </p>
+            <p>
+                <textarea placeholder="Escreva sua mensagem!" required="required"></textarea>
+            </p>
+            <p class="submit">
+                <input type="submit" onclick="SendEmail();" value="Enviar" />
+            </p>
+     
+        </form>
+      
+      
+    </section>
+    
+    <section id="social_media">
+        <div class="section-inner">
+            <h2>Meu contato</h2>
+            <p>Entre em contato comigo através do</p>
+            <nav>
+            <ul class="social_icon">
+              <li><a href="https://br.linkedin.com/in/caique-carara-reimberg-75639514a" class="linkedin">linkedin</a></li>
+            </ul>
+          </nav>
+          </div>
+    </section>
+
+  </main>
+
+  <footer>
+    @ Coded by Caique Carara Reimberg, 2019
+  </footer>
+</body>
+</html>
